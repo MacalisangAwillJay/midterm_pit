@@ -6,7 +6,8 @@
   text-align: center;
   color: green;
   font-family: courier new;
-  font-size: 400%;
+  font-size: 450%;
+  font-weight: bold;
 }
 
 .lead{
@@ -35,5 +36,25 @@ body{
 .title{
     color:white;
 
+}
+
+.footer-copyright{
+    color:black;
+}
+
+.font-weight-bold{
+    color:Black;
+}
+
+.list-unstyled{
+    color:white;
+}
+
+p.text{
+    color:white;
+}
+
+.page-footer{
+    background-color:white;
 }
 
