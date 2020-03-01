@@ -23,3 +23,17 @@ body{
 .card{
     background-color: black;
 }
+
+.card-text{
+    color: green;
+}
+
+.card-title{
+    color: white;
+}
+
+.title{
+    color:white;
+
+}
+
