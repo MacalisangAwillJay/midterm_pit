@@ -17,10 +17,12 @@
 }
 
 body{
+    background-attachment: fixed;
     background-color: black;   
 }
 
 .card{
+    background-attachment: fixed;
     background-color: white;
 }
 
@@ -66,5 +68,40 @@ p.text{
     background-position: center;
     background-size: cover;
 }
+.navbar{
+  list-style-type: none;
+  overflow: hidden;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+
+
 
 
