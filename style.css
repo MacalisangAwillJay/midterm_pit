@@ -1,10 +1,9 @@
-.jumbotron{
-	background-color: black;
-}
+
 
 .display-4{
   text-align: center;
-  color: green;
+  color: white;
+  text-shadow: 2px 2px black;
   font-family: courier new;
   font-size: 450%;
   font-weight: bold;
@@ -22,11 +21,12 @@ body{
 }
 
 .card{
-    background-color: black;
+    background-color: white;
 }
 
 .card-text{
-    color: green;
+    color: white;
+    text-align: center;
 }
 
 .card-title{
@@ -35,6 +35,7 @@ body{
 
 .title{
     color:white;
+    text-align: center;
 
 }
 
@@ -57,4 +58,13 @@ p.text{
 .page-footer{
     background-color:white;
 }
+
+.jumbotron{
+    background-image: url("hack.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 
