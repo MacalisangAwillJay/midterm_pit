@@ -7,6 +7,38 @@
   font-family: courier new;
   font-size: 450%;
   font-weight: bold;
+  
+}
+.dropdown-menu{
+  background-color:#000;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  
+}
+#resume.active{
+  background-color: #4CAF50;
+  color: white;
+}
+#resume:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+a.btn{
+  justify-content: center;
+  font-family: courier new;
+  font-weight: bold;
+  
+}
+h3.display-4{
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-align: center;
+  color:red;
+  text-shadow: 5px 5px black;
+  font-family: courier new;
+  font-size: 450%;
+  font-weight: bold;
 }
 
 .lead{
@@ -100,6 +132,13 @@ li a:hover:not(.active) {
   color: white;
 }
 
+#abilities{
+  background-color: aliceblue;
+}
+
+.checked {
+  color: orange;
+}
 
 
 
