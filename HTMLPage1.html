@@ -15,181 +15,195 @@
 
 	<body>
 
-		<div class="pos-f-t">
-			<div class="collapse" id="navbarToggleExternalContent">
-				<div class="bg-dark p-4">
-					<h5 class="text-white h4">Menu</h5>
-					<ul>
-						<li><a class="active" href="#">Home</a></li>
-						<li><a href="About.html">About</a></li>
-						<li><a href="#">Contact</a></li>
-						<div class="btn-group dropright">
-							<button type="button" class="btn btn-secondary dropdown-toggle btn-dark" data-toggle="dropdown"
-								aria-haspopup="true" aria-expanded="false">
-								Portfolio
-							</button>
-							<div class="dropdown-menu">
-								<a id="resume" href="Resume.html">Resume></a>
-							</div>
+
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+			<a class="navbar-brand text-white">
+				<img src="it.jpg" width="30" height="30" class="d-inline-block align-top mr-2" alt="">AJAY
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="About.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Contact.html">Contact</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">Portfolio
+						</a>
+						<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+							<a id="resume" class="dropdown-item" href="Resume.html">Resume</a>
+							<a class="dropdown-item" href="#">Another action</a>
 						</div>
-						<li><a href="#">Gallery</a></li>
-					</ul>
-				</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="Gallery.html">Gallery</a>
+					</li>
+				</ul>
+
 			</div>
-
-			<nav class="navbar navbar-dark bg-dark">
-				<a class="navbar-brand" href="#">
-					<img src="it.jpg" width="30" height="30" class="d-inline-block align-top mr-2" alt="">AJAY
-				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse"
-					data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-					aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-			</nav>
+		</nav>
 
 
-			<div class="jumbotron">
-				<div class="container">
-					<h1 class="display-4">Awill Jay Macalisang</h1>
-					<h3 class="display-4">BSIT</h3>
-					<a class="btn btn-light btn-lg mx-auto" href="About.html" role="button">About me</a>
-				</div>
-			</div>
 
+
+		<div class="jumbotron">
 			<div class="container">
+				<h1 class="glow">Awill Jay Macalisang</h1>
+				<h3 class="display-4">BSIT</h3>
+				<div class="text-center">
+					<a class="btn btn-light btn-lg mx-auto bg-dark text-white" href="About.html" role="button">About
+						me</a>
+				</div>
+
+			</div>
+		</div>
+
+		<br> <br> <br>
+		<br> <br> <br>
+		<br> <br> <br>
+		<h2 id=h2>This Page was made using:</h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm">
+					<h5 class="title">HTML</h5>
+					<p class="card-text">Hypertext Markup Language, a standardized system for tagging text files to
+						achieve font, color, graphic, and hyperlink effects on World Wide Web pages.</p>
+				</div>
+				<div class="col-sm">
+					<h5 class="title">JavaScript</h5>
+					<p class="card-text">Javascript (JS) is a scripting languages, primarily used on the Web. It is
+						used to enhance HTML pages and is commonly found embedded in HTML code. JavaScript is an
+						interpreted language. Thus, it doesn't need to be compiled. JavaScript renders web pages in
+						an interactive and dynamic fashion.</p>
+				</div>
+				<div class="col-sm">
+					<h5 class="title">CSS</h5>
+					<p class="card-text">Cascading Style Sheets, literally "Blinding Style Tiles" is a style
+						language shorthand used to describe the semantic presentation of a document written in a
+						marked language.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="card-group">
+			<div class="card">
+				<img src="html.webp" height="325" width="290" class="card-img-top" alt="...">
+				<div class="card-body">
+					<p class="lead">“The best programs are written so that computing machines can perform them
+						quickly and so that human beings can understand them clearly. A programmer is ideally an
+						essayist who works with traditional aesthetic and literary forms as well as mathematical
+						concepts, to communicate the way that an algorithm works and to convince a reader that the
+						results will be correct.”</p>
+
+				</div>
+			</div>
+
+			<div class="card">
+				<img src="js.png" height="330" class="card-img-top" alt="...">
+				<div class="card-body">
+					<p class="lead">“The computer programmer is a creator of universes for which he alone is the
+						lawgiver. No playwright, no stage director, no emperor, however powerful, has ever exercised
+						such absolute authority to arrange a stage or field of battle and to command such
+						unswervingly dutiful actors or troops.”</p>
+				</div>
+			</div>
+			<div class="card">
+				<img src="css.webp" height="325" class="card-img-top" alt="...">
+				<div class="card-body">
+					<p class="lead">“Remember that code is really the language in which we ultimately express the
+						requirements. We may create languages that are closer to the requirements. We may create
+						tools that help us parse and assemble those requirements into formal structures. But we will
+						never eliminate necessary precision—so there will always be code.”</p>
+				</div>
+			</div>
+		</div>
+
+
+		<footer class="page-footer font-small mdb-color lighten-0 pt-4">
+			<div class="container text-center text-md-left">
 				<div class="row">
-					<div class="col-sm">
-						<h5 class="title">HTML</h5>
-						<p class="card-text">Hypertext Markup Language, a standardized system for tagging text files to
-							achieve font, color, graphic, and hyperlink effects on World Wide Web pages.</p>
+					<div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+						<h5 class="font-weight-bold text-uppercase mb-4">Page Content</h5>
+						<p class="text">In this Page You can view some of my informations such as:</p>
+						<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam
+							iure provident voluptate esse quasi, veritatis totam voluptas nostrum.</p>
 					</div>
-					<div class="col-sm">
-						<h5 class="title">JavaScript</h5>
-						<p class="card-text">Javascript (JS) is a scripting languages, primarily used on the Web. It is
-							used to enhance HTML pages and is commonly found embedded in HTML code. JavaScript is an
-							interpreted language. Thus, it doesn't need to be compiled. JavaScript renders web pages in
-							an interactive and dynamic fashion.</p>
+					<hr class="clearfix w-100 d-md-none">
+					<div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+						<h5 class="font-weight-bold text-uppercase mb-4">About</h5>
+						<ul class="list-unstyled">
+							<li>
+								<p>
+									<a href="About.html">ABOUT</a>
+								</p>
+							</li>
+							<li>
+
 					</div>
-					<div class="col-sm">
-						<h5 class="title">CSS</h5>
-						<p class="card-text">Cascading Style Sheets, literally "Blinding Style Tiles" is a style
-							language shorthand used to describe the semantic presentation of a document written in a
-							marked language.</p>
+					<hr class="clearfix w-100 d-md-none">
+					<div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+						<h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+						<ul class="list-unstyled">
+							<li>
+								<p>
+									<i class="fas fa-home mr-3"></i>Linggangao, Balingasag, MisOr</p>
+							</li>
+							<li>
+								<p>
+									<i class="fas fa-envelope mr-3"></i> macalisang.awillay@gmail.com</p>
+							</li>
+							<li>
+								<p>
+									<i class="fas fa-phone mr-3"></i> +639955836426</p>
+							</li>
+							<li>
+								<p>
+									<i class="fas fa-print mr-3"></i> +639182933227</p>
+							</li>
+						</ul>
+
+					</div>
+					<hr class="clearfix w-100 d-md-none">
+					<div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+						<h5 class="font-weight-bold text-uppercase mb-4">Follow Me</h5>
+						<a type="button" class="btn-floating btn-fb">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+						<a type="button" class="btn-floating btn-tw">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a type="button" class="btn-floating btn-gplus">
+							<i class="fab fa-google-plus-g"></i>
+						</a>
 					</div>
 				</div>
 			</div>
-
-			<div class="card-group">
-				<div class="card">
-					<img src="html.webp" height="325" width="290" class="card-img-top" alt="...">
-					<div class="card-body">
-						<p class="lead">“The best programs are written so that computing machines can perform them
-							quickly and so that human beings can understand them clearly. A programmer is ideally an
-							essayist who works with traditional aesthetic and literary forms as well as mathematical
-							concepts, to communicate the way that an algorithm works and to convince a reader that the
-							results will be correct.”</p>
-
-					</div>
-				</div>
-
-				<div class="card">
-					<img src="js.png" height="330" class="card-img-top" alt="...">
-					<div class="card-body">
-						<p class="lead">“The computer programmer is a creator of universes for which he alone is the
-							lawgiver. No playwright, no stage director, no emperor, however powerful, has ever exercised
-							such absolute authority to arrange a stage or field of battle and to command such
-							unswervingly dutiful actors or troops.”</p>
-					</div>
-				</div>
-				<div class="card">
-					<img src="css.webp" height="325" class="card-img-top" alt="...">
-					<div class="card-body">
-						<p class="lead">“Remember that code is really the language in which we ultimately express the
-							requirements. We may create languages that are closer to the requirements. We may create
-							tools that help us parse and assemble those requirements into formal structures. But we will
-							never eliminate necessary precision—so there will always be code.”</p>
-					</div>
-				</div>
+			<div class="footer-copyright text-center py-3">© 2020 Copyright:
+				<a href="#"> AjayMac</a>
 			</div>
-
-
-			<footer class="page-footer font-small mdb-color lighten-0 pt-4">
-				<div class="container text-center text-md-left">
-					<div class="row">
-						<div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
-
-							<h5 class="font-weight-bold text-uppercase mb-4">Page Content</h5>
-							<p class="text">In this Page You can view some of my informations such as:</p>
-							<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam
-								iure provident voluptate esse quasi, veritatis totam voluptas nostrum.</p>
-						</div>
-						<hr class="clearfix w-100 d-md-none">
-						<div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
-							<h5 class="font-weight-bold text-uppercase mb-4">About</h5>
-							<ul class="list-unstyled">
-								<li>
-									<p>
-										<a href="#!">ABOUT US</a>
-									</p>
-								</li>
-								<li>
-
-						</div>
-						<hr class="clearfix w-100 d-md-none">
-						<div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
-							<h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
-							<ul class="list-unstyled">
-								<li>
-									<p>
-										<i class="fas fa-home mr-3"></i>Linggangao, Balingasag, MisOr</p>
-								</li>
-								<li>
-									<p>
-										<i class="fas fa-envelope mr-3"></i> macalisang.awillay@gmail.com</p>
-								</li>
-								<li>
-									<p>
-										<i class="fas fa-phone mr-3"></i> +639955836426</p>
-								</li>
-								<li>
-									<p>
-										<i class="fas fa-print mr-3"></i> +639182933227</p>
-								</li>
-							</ul>
-
-						</div>
-						<hr class="clearfix w-100 d-md-none">
-						<div class="col-md-2 col-lg-2 text-center mx-auto my-4">
-							<h5 class="font-weight-bold text-uppercase mb-4">Follow Me</h5>
-							<a type="button" class="btn-floating btn-fb">
-								<i class="fab fa-facebook-f"></i>
-							</a>
-							<a type="button" class="btn-floating btn-tw">
-								<i class="fab fa-twitter"></i>
-							</a>
-							<a type="button" class="btn-floating btn-gplus">
-								<i class="fab fa-google-plus-g"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="footer-copyright text-center py-3">© 2020 Copyright:
-					<a href="#"> AjayMac</a>
-				</div>
-			</footer>
+		</footer>
 
 
 
-			<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-				integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-				crossorigin="anonymous"></script>
-			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-				integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-				crossorigin="anonymous"></script>
-			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-				integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-				crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+			crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+			crossorigin="anonymous"></script>
 
 
 

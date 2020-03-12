@@ -12,254 +12,198 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css" />
+
 </head>
 
 <body>
-	<div class="pos-f-t">
-		<div class="collapse" id="navbarToggleExternalContent">
-			<div class="bg-dark p-4">
-				<h5 class="text-white h4">Menu</h5>
-				<ul>
-					<li><a href="HTMLPage1.html">Home</a></li>
-					<li><a class="active" href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
-					<li><a href="Resume.html">Portfolio</a></li>
-					<li><a href="#">Gallery</a></li>
-				</ul>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar bg-dark">
+		<a class="navbar-brand text-white">
+			<img src="it.jpg" width="30" height="30" class="d-inline-block align-top mr-2" alt="">AJAY
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="HTMLPage1.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="About.html">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Contact.html">Contact</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">Portfolio
+					</a>
+					<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+						<a id=resume class="dropdown-item" href="Resume.html">Resume</a>
+						<a class="dropdown-item" href="#">Another action</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Gallery.html">Gallery</a>
+				</li>
+			</ul>
+
+		</div>
+	</nav>
+	<br><br><br>
+	<section id="about" class="container">
+		<img src="awill.png">
+		<h1 class="display-4">About Me</h1>
+		<p>
+			I am currently taking up Bachelor of Science in Information Technology (BSIT) at University of Science
+			and Technology of Southern Philippines (USTP). I choose this course because this field is my passion, I love
+			to execute big ideas, and I want to use my talents to
+			solve problems and make
+			life easier for people. I jump at the chance to learn new things. I take great pride in my work and the fact
+			that I create things that others find useful.
+		</p>
+		<p>
+			<strong>Skills:</strong>
+			<span class="badge badge-info">Bootstrap</span>
+			<span class="badge badge-info">C++</span>
+			<span class="badge badge-info">Python</span>
+			<span class="badge badge-info">HTML</span>
+			<span class="badge badge-info">CSS</span>
+			<span class="badge badge-info">JavaScript</span>
+			<span class="badge badge-info">JAVA</span>
+			<span class="badge badge-info">SQL</span>
+		</p>
+	</section>
+
+	<!-- EXPERIENCE --------------------------------------------->
+	<section id="experience" class="container">
+		<h1>Experience</h1>
+		<div class="card">
+			<div class="card-header collapse show" data-toggle="collapse" data-target="#exp1">
+				<div class="row">
+					<h5 class="col-md-8 mb-0">Contract Web Developer</h5>
+					<em class="col-md-4 text-md-right">Apr 2012 - Current</em>
+				</div>
+			</div>
+			<div class="card-block collapse" id="exp1">
+				<h5>Ben Davis Digital - Dallas, TX</h5>
+				<p>
+					Leveraged agile frameworks to provide a robust synopsis for high level overviews. Iterative
+					approaches to corporate strategy foster collaborative thinking to further the overall value
+					proposition. Organically grow the holistic world view of disruptive innovation via workplace
+					diversity and empowerment.
+				</p>
+				<p>
+					Brought to the table win-win survival strategies to ensure proactive domination. At the end of the
+					day, going forward, a new normal that has evolved from generation X is on the runway heading towards
+					a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for
+					offshoring.
+				</p>
+				<p>
+					Capitalized on low hanging fruit to identify a ballpark value added activity to beta test. Override
+					the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the
+					information highway will close the loop on focusing solely on the bottom line.
+				</p>
 			</div>
 		</div>
-		<nav class="navbar navbar-dark bg-dark">
-			<a class="navbar-brand" href="#">
-				<img src="it.jpg" width="30" height="30" class="d-inline-block align-top mr-2" alt="">AJAY
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse"
-				data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-				aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-		</nav>
 
-		<div class="container p-3 my-3 bg-dark text-white">
-			<h1>ABOUT ME</h1>
-			<br><br><br>
-			<p>Hello, I am Awill Jay E. Macalisang, currently taking up the course Bachelor of Science in Information
-				Technology (BSIT) at <div>
-					University of Science and Technology of Southern Philippines (USTP). I choose this course because
-					this is field is my passion,<div>
-						I really like to
-					</div>
-				</div>
-			</p>
-			<p>The .container class provides a responsive fixed width container.</p>
-			<p>Resize the browser window to see that its width (max-width) will change at different breakpoints.</p>
-		</div>
-
-		<div class="background-white">
-			<div id="abilities" class="container">
-				<h2>Abilities</h2>
-				<p class="lead">
-					&ldquo;Life without knowledge is death in disguise.&rdquo;<br />- Talib Kweli
-				</p>
-
-				<hr />
-
-				<h3>Skills</h3>
-
+		<div class="card">
+			<div class="card-header" data-toggle="collapse" data-target="#exp2">
 				<div class="row">
-
-
-					<div class="col-md-6">
-						<ul class="no-bullets">
-
-
-							<li>
-								<span class="ability-title">Bootstrap Framework</span>
-								<span class="ability-score">
-
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-
-								</span>
-							</li>
-
-
-
-							<li>
-								<span class="ability-title">CSS(3)</span>
-								<span class="ability-score">
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-								</span>
-							</li>
-
-
-
-							<li>
-								<span class="ability-title">HTML(5)</span>
-								<span class="ability-score">
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-								</span>
-							</li>
-
-
-							<li>
-								<span class="ability-title">MySQL</span>
-								<span class="ability-score">
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-								</span>
-							</li>
-
-
-							<li>
-								<span class="ability-title">Java</span>
-								<span class="ability-score">
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star "></span>
-
-
-								</span>
-							</li>
-
-
-
-							<li>
-								<span class="ability-title">Javascript</span>
-								<span class="ability-score">
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star "></span>
-
-
-								</span>
-							</li>
-
-
-
-						</ul>
-					</div>
-					<div class="col-md-6">
-						<ul class="no-bullets">
-
-
-
-							<li>
-								<span class="ability-title">Object Orientated Programming</span>
-								<span class="ability-score">
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star filled"></span>
-
-
-									<span class="glyphicon glyphicon-star "></span>
-
-
-								</span>
-							</li>
-
-
-
-						</ul>
-					</div>
-
-
+					<h5 class="col-md-8 mb-0">Senior Developer</h5>
+					<em class="col-md-4 text-md-right">Sep 2008 - Apr 2012</em>
 				</div>
+			</div>
+			<div class="card-block collapse" id="exp2">
+				<h5>Farstar - Frisco, TX</h5>
+				<p>
+					Leveraged agile frameworks to provide a robust synopsis for high level overviews. Iterative
+					approaches to corporate strategy foster collaborative thinking to further the overall value
+					proposition. Organically grow the holistic world view of disruptive innovation via workplace
+					diversity and empowerment.
+				</p>
+				<p>
+					Brought to the table win-win survival strategies to ensure proactive domination. At the end of the
+					day, going forward, a new normal that has evolved from generation X is on the runway heading towards
+					a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for
+					offshoring.
+				</p>
+				<p>
+					Capitalized on low hanging fruit to identify a ballpark value added activity to beta test. Override
+					the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the
+					information highway will close the loop on focusing solely on the bottom line.
+				</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" data-toggle="collapse" data-target="#exp3">
+				<div class="row">
+					<h5 class="col-md-8 mb-0">Project Manager, CMS Team Lead</h5>
+					<em class="col-md-4 text-md-right">Jan 2005 - Sep 2008</em>
+				</div>
+			</div>
+			<div class="card-block collapse" id="exp3">
+				<h5>New Media Gateway - Dallas, TX</h5>
+				<p>
+					Leveraged agile frameworks to provide a robust synopsis for high level overviews. Iterative
+					approaches to corporate strategy foster collaborative thinking to further the overall value
+					proposition. Organically grow the holistic world view of disruptive innovation via workplace
+					diversity and empowerment.
+				</p>
+				<p>
+					Brought to the table win-win survival strategies to ensure proactive domination. At the end of the
+					day, going forward, a new normal that has evolved from generation X is on the runway heading towards
+					a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for
+					offshoring.
+				</p>
+				<p>
+					Capitalized on low hanging fruit to identify a ballpark value added activity to beta test. Override
+					the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the
+					information highway will close the loop on focusing solely on the bottom line.
+				</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header" data-toggle="collapse" data-target="#exp4">
+				<div class="row">
+					<h5 class="col-md-8 mb-0">Total Newb Developer</h5>
+					<em class="col-md-4 text-md-right">Jul 2000 - Jan 2005</em>
+				</div>
+			</div>
+			<div class="card-block collapse" id="exp4">
+				<h5>Various Companies - Midwest United States</h5>
+				<p>
+					Leveraged agile frameworks to provide a robust synopsis for high level overviews. Iterative
+					approaches to corporate strategy foster collaborative thinking to further the overall value
+					proposition. Organically grow the holistic world view of disruptive innovation via workplace
+					diversity and empowerment.
+				</p>
+				<p>
+					Brought to the table win-win survival strategies to ensure proactive domination. At the end of the
+					day, going forward, a new normal that has evolved from generation X is on the runway heading towards
+					a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for
+					offshoring.
+				</p>
+				<p>
+					Capitalized on low hanging fruit to identify a ballpark value added activity to beta test. Override
+					the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the
+					information highway will close the loop on focusing solely on the bottom line.
+				</p>
+			</div>
+		</div>
+	</section>
 
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
 
-
-
-				<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-					integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-					crossorigin="anonymous"></script>
-				<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-					integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-					crossorigin="anonymous"></script>
-				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-					integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-					crossorigin="anonymous"></script>
 
 
 </body>

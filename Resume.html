@@ -16,161 +16,688 @@
 
 <body>
 
-    <div class="pos-f-t">
-        <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-dark p-4">
-                <h5 class="text-white h4">Menu</h5>
-                <ul>
-                    <li><a href="HTMLPage1.html">Home</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <div class="btn-group dropright">
-                        <button type="button" class="btn btn-secondary dropdown-toggle btn-dark" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            Portfolio
-                        </button>
-                        <div class="dropdown-menu">
-                            <a id="resume" class ="active" href="#">Resume></a>
-                        </div>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark scrolling-navbar">
+        <a class="navbar-brand text-white">
+            <img src="it.jpg" width="30" height="30" class="d-inline-block align-top mr-2" alt="">AJAY
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="HTMLPage1.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Portfolio
+                    </a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a id=resume class="dropdown-item active " href="Resume.html">Resume</a>
+                        <a class="dropdown-item" href="#">Another action</a>
                     </div>
-                    <li><a href="#">Gallery</a></li>
-                </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Gallery.html">Gallery</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <body>
+
+        <div class="container" id="section-about">
+            <div class="content content-box">
+                <div class="image"> <img
+                        src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/man_r-160x180.jpg" alt="" />
+                </div>
+                <div class="desc">
+                    <p>Hello! I’m Daniel Curry. Web designer from USA, California, San Francisco. I have rich
+                        experience in web site design and building, also I am good at wordpress. I love to talk with
+                        you about our unique.</p>
+                    <div class="info-list">
+                        <ul>
+                            <li><strong>Age:</strong> 24</li>
+                            <li><strong>Residence:</strong> USA</li>
+                            <li><strong>Freelance:</strong> Available</li>
+                            <li><strong>Address:</strong> San Francisco, USA</li>
+                            <li><strong>Phone:</strong> +1 256 254 84 56</li>
+                            <li><strong>E-mail:</strong> alejandroa@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="bts bts-list"> <a href="https://cvio.bslthemes.com/" class="btn hover-animated">
+                            <span class="circle"></span> <span class="lnk">Download CV</span> </a></div>
+                </div>
+                <div class="clear"></div>
             </div>
         </div>
-        <nav class="navbar navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">
-                <img src="it.jpg" width="30" height="30" class="d-inline-block align-top mr-2" alt="">AJAY
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </nav>
-
-        <section class="container-fluid col-xs-12" id="resume">
-            <div class="container" style="  border: 1px solid #F0F0F0;">
-                <h1 class="text-center">-RESUME-</h1>
-                <div class="col-md-3">
-                    <h2>Personal Profile</h2>
+        <div class="section service" id="section-services">
+            <div class="content">
+                <div class="title">
+                    <div class="title_inner">Services</div>
                 </div>
-                <div class="col-md-9">
-                    <p>My Career Objective is to become a part of dynamic, growth-oriented organization where
-                        performance is rewarded and have exposure to a competitive environment and challenging
-                        responsibilities.</p>
-                </div>
-                <div class="clear"></div>
-                <hr />
-
-                <div class="col-md-3">
-                    <h2>Personal Data</h2>
-                </div>
-                <div class="col-md-9">
-                    <li>Age <div>24</div>
-                    </li>
-                    <li>Birth Date <div>January 3, 1991</div>
-                    </li>
-                    <li>Birth Place <div>Cagayan de Oro City </div>
-                    </li>
-                    <li>Sex <div>Male</div>
-                    </li>
-                    <li>Civil Status <div>Single</div>
-                    </li>
-                </div>
-                <div class="clear"></div>
-                <hr />
-
-                <div class="col-md-3">
-                    <h2>EDUCATIONAL BACKGROUND</h2>
-                </div>
-                <div class="col-md-9">
-                    <p>Bachelor of Science in Information Technology - Graduate STI College-CDO Campus </p>
-                </div>
-                <div class="clear"></div>
-                <hr />
-
-                <div class="col-md-3">
-                    <h2>SKILLS</h2>
-                </div>
-                <div class="col-md-9">
-                    <ul>
-                        <li>Microsoft Office Applications </li>
-                        <li>Web Designing/Development </li>
-                        <li>MS Visual Basic </li>
-                        <li>SEO On/Off Page Optimization</li>
-                        <li>Virtual Assistant</li>
-                        <li>Technical Support </li>
-                        <li>Data Entry </li>
-                    </ul>
-                    <ul>
-                        <li>Visual Design</li>
-                        <li>Logo Design</li>
-                        <li>E-Commerce</li>
-                        <li>Responsible/ Mobile DESIGNS</li>
-                        <li>Wordpress</li>
-                        <li>Off-Page Optimization</li>
-                        <li>On-Page Optimization </li>
-                    </ul>
-                    <ul>
-                        <li>Keyword Research</li>
-                        <li>Techical Support</li>
-                        <li>E-Commerce</li>
-                        <li>Shopify</li>
-                        <li>Content Management</li>
-                    </ul>
-                </div>
-                <div class="clear"></div>
-                <hr />
-
-                <div class="col-md-3">
-                    <h2>PERSONAL EXPERIENCE</h2>
-                </div>
-                <div class="col-md-9 ex">
-                    <li>Link Specialist <div><b>StickyMedia Solutions Inc</b> <br />Cagayan de Oro City<br />July 2011
+                <div class="service-items">
+                    <div class="service-col">
+                        <div class="service-item content-box">
+                            <div class="icon"><span class="ion fas fa-code"></span></div>
+                            <div class="name">Web Development</div>
+                            <div class="text">Modern and mobile-ready website that will help you reach all of your
+                                marketing.</div>
                         </div>
-                    </li>
-                    <li>Shift Supervisor/Project head <div><b>Harvest LLC</b><br />Cagayan de Oro City <br />July 2011 -
-                            February 2013 </div>
-                    </li>
-                    <li>College Instructor <div><b>STI College Cagayan de Oro</b><br />Cagayan de Oro City <br />June
-                            2011 - March 2013 </div>
-                    </li>
-                </div>
-                <div class="clear"></div>
-                <hr />
-
-                <div class="col-md-3">
-                    <h2>ONLINE JOBS</h2>
-                </div>
-                <div class="col-md-9 ex">
-                    <p><b>International Web Co</b>-James Kintzele July 25, 2011-October 2012 <br />Project Manager </p>
-                    <p>To Shemin Jiwani of United Kingdom <br /> Wordpress Programmer/SEO Specialist </p>
-                    <p>Web Developer / SEO - <b>FanpagesthatSell </b> - Rebecca Metz December 25, 2012 - September 30
-                        2014</p>
-                    <p>VPN Technical Support - <b>VPNREactor LLC</b> November 2012 - July 2013</p>
-                    <p>Web Developer - <b>Flexx Digital</b> November 2014 - May 2015</p>
-                </div>
-                <div class="clear"></div>
-                <hr />
-
-                <div class="col-md-3">
-                    <h2>SEMINARS</h2>
-                </div>
-                <div class="col-md-9 ex">
-                    <li>Information Technology Seminar<div><b>River View Hotel</b> <br />Cagayan de Oro
-                            City<br />February 2009 </div>
-                    </li>
-                    <li>Business and IT Seminar <div><b>Deluxe Hotel</b><br />Cagayan de Oro City <br />March 2010
+                    </div>
+                    <div class="service-col">
+                        <div class="service-item content-box">
+                            <div class="icon"><span class="ion fas fa-music"></span></div>
+                            <div class="name">Music Writing</div>
+                            <div class="text">Music copying, writing, creating, transcription, arranging and
+                                services.</div>
                         </div>
-                    </li>
+                    </div>
+                    <div class="service-col">
+                        <div class="service-item content-box">
+                            <div class="icon"><span class="ion fas fa-ad"></span></div>
+                            <div class="name">Advetising</div>
+                            <div class="text">Advertising services include television, radio, print, mail, and web
+                                apps.</div>
+                        </div>
+                    </div>
+                    <div class="service-col">
+                        <div class="service-item content-box">
+                            <div class="icon"><span class="ion fas fa-gamepad"></span></div>
+                            <div class="name">Game Development</div>
+                            <div class="text">Developing memorable and unique mobile android, ios and video games.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-col">
+                        <div class="service-item content-box">
+                            <div class="icon"><span class="ion fas fa-camera"></span></div>
+                            <div class="name">Photography</div>
+                            <div class="text">Our in-house photography services team made up of professional
+                                photographers.</div>
+                        </div>
+                    </div>
+                    <div class="service-col">
+                        <div class="service-item content-box">
+                            <div class="icon"><span class="ion fas fa-mobile"></span></div>
+                            <div class="name">Android Application</div>
+                            <div class="text">Games, playing music, handle network transactions, interacting content
+                                etc.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section pricing" id="section-pricing">
+            <div class="content">
+                <div class="title">
+                    <div class="title_inner">Pricing Table</div>
+                </div>
+                <div class="pricing-items">
+                    <div class="pricing-col">
+                        <div class="pricing-item content-box">
+                            <div class="icon"><span class="ion fas fa-star"></span></div>
+                            <div class="name">Popular</div>
+                            <div class="amount"> <span class="number"> <span class="dollar">$</span> <span>39</span>
+                                    <span class="period">hour</span> </span></div>
+                            <div class="feature-list">
+                                <ul>
+                                    <li>Web Development</li>
+                                    <li>Advetising</li>
+                                    <li>Game Development</li>
+                                    <li class="disable">Music Writing <strong>new</strong></li>
+                                    <li class="disable">Photography <strong>new</strong></li>
+                                </ul>
+                            </div>
+                            <div class="bts"> <a href="https://cvio.bslthemes.com/v1/" class="btn hover-animated">
+                                    <span class="circle"></span> <span class="lnk">Buy Now</span> </a></div>
+                        </div>
+                    </div>
+                    <div class="pricing-col">
+                        <div class="pricing-item content-box">
+                            <div class="icon"><span class="ion fas fa-rocket"></span></div>
+                            <div class="name">Premium</div>
+                            <div class="amount"> <span class="number"> <span class="dollar">$</span> <span>49</span>
+                                    <span class="period">hour</span> </span></div>
+                            <div class="feature-list">
+                                <ul>
+                                    <li>Web Development</li>
+                                    <li>Advetising</li>
+                                    <li>Game Development</li>
+                                    <li>Music Writing <strong>new</strong></li>
+                                    <li>Photography <strong>new</strong></li>
+                                </ul>
+                            </div>
+                            <div class="bts"> <a href="https://cvio.bslthemes.com/v1/" class="btn hover-animated">
+                                    <span class="circle"></span> <span class="lnk">Buy Now</span> </a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section resume" id="section-history">
+            <div class="content">
+                <div class="cols">
+                    <div class="col col-md">
+                        <div class="title">
+                            <div class="title_inner">Experience</div>
+                        </div>
+                        <div class="resume-items">
+                            <div class="resume-item content-box active">
+                                <div class="date">2013 - Present</div>
+                                <div class="name">Art Director - Facebook Inc.</div>
+                                <div class="text">Collaborate with creative and development teams on the execution
+                                    of ideas.</div>
+                            </div>
+                            <div class="resume-item content-box active">
+                                <div class="date">2011 - 2012</div>
+                                <div class="name">Front-End Developer - Google Inc.</div>
+                                <div class="text">Monitored technical aspects of the front-end delivery for
+                                    projects.</div>
+                            </div>
+                            <div class="resume-item content-box active">
+                                <div class="date">2009 - 2010</div>
+                                <div class="name">Senior Developer - ABC Inc.</div>
+                                <div class="text">Optimize your website and apps performance using latest
+                                    technology.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md">
+                        <div class="title">
+                            <div class="title_inner">Education</div>
+                        </div>
+                        <div class="resume-items">
+                            <div class="resume-item content-box active">
+                                <div class="date">2006 - 2008</div>
+                                <div class="name">Art University - New York</div>
+                                <div class="text">Bachelor's Degree in Computer Science ABC Technical Institute,
+                                    Jefferson, Missouri.</div>
+                            </div>
+                            <div class="resume-item content-box active">
+                                <div class="date">2005 - 2006</div>
+                                <div class="name">Programming Course - Paris</div>
+                                <div class="text">Coursework - Git, WordPress, Javascript, iOS, Android.</div>
+                            </div>
+                            <div class="resume-item content-box active">
+                                <div class="date">2004 - 2005</div>
+                                <div class="name">Web Design Course - London</div>
+                                <div class="text">Converted Photoshop layouts to web pages using HTML, CSS, and
+                                    JavaScript.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section skills" id="section-skills">
+            <div class="content">
+                <div class="title">
+                    <div class="title_inner">Design Skills</div>
+                </div>
+                <div class="skills content-box percent">
+                    <ul>
+                        <li>
+                            <div class="name">Web Design</div>
+                            <div class="progress ">
+                                <div class="percentage" style="width: 90%;"> <span class="percent">90%</span></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">Illustrations</div>
+                            <div class="progress ">
+                                <div class="percentage" style="width: 70%;"> <span class="percent">70%</span></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">Photoshop</div>
+                            <div class="progress ">
+                                <div class="percentage" style="width: 95%;"> <span class="percent">95%</span></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">Graphic Design</div>
+                            <div class="progress ">
+                                <div class="percentage" style="width: 85%;"> <span class="percent">85%</span></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section skills" id="section-skills">
+            <div class="content">
+                <div class="title">
+                    <div class="title_inner">Languages Skills</div>
+                </div>
+                <div class="skills content-box dotted">
+                    <ul>
+                        <li>
+                            <div class="name">English</div>
+                            <div class="progress ">
+                                <div class="percentage" style="width: 90%;"> <span class="percent">90%</span></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">German</div>
+                            <div class="progress ">
+                                <div class="percentage" style="width: 70%;"> <span class="percent">70%</span></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">Italian</div>
+                            <div class="progress ">
+                                <div class="percentage" style="width: 55%;"> <span class="percent">55%</span></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">French</div>
+                            <div class="progress ">
+                                <div class="percentage" style="width: 85%;"> <span class="percent">85%</span></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section skills" id="section-skills">
+            <div class="content">
+                <div class="title">
+                    <div class="title_inner">Coding Skills</div>
+                </div>
+                <div class="skills content-box circles">
+                    <ul>
+                        <li>
+                            <div class="name">WordPress</div>
+                            <div class="progress p90">
+                                <div class="percentage" style="width: 90%;"> <span class="percent">90%</span></div>
+                                <span>90%</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">PHP / MYSQL</div>
+                            <div class="progress p75">
+                                <div class="percentage" style="width: 75%;"> <span class="percent">75%</span></div>
+                                <span>75%</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">Angular / JavaScript</div>
+                            <div class="progress p85">
+                                <div class="percentage" style="width: 85%;"> <span class="percent">85%</span></div>
+                                <span>85%</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">HTML / CSS</div>
+                            <div class="progress p95">
+                                <div class="percentage" style="width: 95%;"> <span class="percent">95%</span></div>
+                                <span>95%</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section skills" id="section-skills">
+            <div class="content">
+                <div class="title">
+                    <div class="title_inner">Knowledge</div>
+                </div>
+                <div class="skills content-box list">
+                    <ul>
+                        <li>
+                            <div class="name">Website hosting</div>
+                            <div class="progress ">
+                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">iOS and android apps</div>
+                            <div class="progress ">
+                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">Create logo design</div>
+                            <div class="progress ">
+                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">Design for print</div>
+                            <div class="progress ">
+                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">Modern and mobile-ready</div>
+                            <div class="progress ">
+                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">Advertising services include</div>
+                            <div class="progress ">
+                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">Graphics and animations</div>
+                            <div class="progress ">
+                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">Search engine marketing</div>
+                            <div class="progress ">
+                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section service" id="section-interests">
+            <div class="content">
+                <div class="title">
+                    <div class="title_inner">Interests</div>
+                </div>
+                <div class="service-items">
+                    <div class="service-col">
+                        <div class="service-item content-box">
+                            <div class="icon"><span class="ion fas fa-basketball-ball"></span></div>
+                            <div class="name">Basketball</div>
+                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        </div>
+                    </div>
+                    <div class="service-col">
+                        <div class="service-item content-box">
+                            <div class="icon"><span class="ion fas fa-fire"></span></div>
+                            <div class="name">Camping</div>
+                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        </div>
+                    </div>
+                    <div class="service-col">
+                        <div class="service-item content-box">
+                            <div class="icon"><span class="ion fas fa-gamepad"></span></div>
+                            <div class="name">Gaming</div>
+                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        </div>
+                    </div>
+                    <div class="service-col">
+                        <div class="service-item content-box">
+                            <div class="icon"><span class="ion fas fa-music"></span></div>
+                            <div class="name">Music</div>
+                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section team" id="section-team">
+            <div class="content">
+                <div class="title">
+                    <div class="title_inner">Our Team</div>
+                </div>
+                <div class="team-carousel">
+                    <div class="swiper-container" data-autoplaytime="5000" data-slidesview="2" data-spacebetween="30"
+                        data-loop="0">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="team-item content-box">
+                                    <div class="image"> <img
+                                            src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/team1-500x500.jpg"
+                                            alt="Alejandro Abeyta" /></div>
+                                    <div class="desc">
+                                        <div class="name">Alejandro Abeyta</div>
+                                        <div class="category">Web Developer</div>
+                                        <div class="soc"> <a target="_blank" href="https://www.facebook.com/"> <span
+                                                    class="icon ion fab fa-facebook-f"></span> </a> <a target="_blank"
+                                                href="https://twitter.com/"> <span
+                                                    class="icon ion fab fa-twitter"></span> </a> <a target="_blank"
+                                                href="https://www.pinterest.com/"> <span
+                                                    class="icon ion fab fa-pinterest"></span> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="team-item content-box">
+                                    <div class="image"> <img
+                                            src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/team2-500x500.jpg"
+                                            alt="Peter Green" /></div>
+                                    <div class="desc">
+                                        <div class="name">Peter Green</div>
+                                        <div class="category">Back-end Developer</div>
+                                        <div class="soc"> <a target="_blank" href="https://www.facebook.com/"> <span
+                                                    class="icon ion fab fa-facebook-f"></span> </a> <a target="_blank"
+                                                href="https://twitter.com/"> <span
+                                                    class="icon ion fab fa-twitter"></span> </a> <a target="_blank"
+                                                href="https://www.pinterest.com/"> <span
+                                                    class="icon ion fab fa-pinterest"></span> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="team-item content-box">
+                                    <div class="image"> <img
+                                            src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/team1-500x500.jpg"
+                                            alt="Alejandro Abeyta" /></div>
+                                    <div class="desc">
+                                        <div class="name">Alejandro Abeyta</div>
+                                        <div class="category">Web Developer</div>
+                                        <div class="soc"> <a target="_blank" href="https://www.facebook.com/"> <span
+                                                    class="icon ion fab fa-facebook-f"></span> </a> <a target="_blank"
+                                                href="https://twitter.com/"> <span
+                                                    class="icon ion fab fa-twitter"></span> </a> <a target="_blank"
+                                                href="https://www.pinterest.com/"> <span
+                                                    class="icon ion fab fa-pinterest"></span> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="team-item content-box">
+                                    <div class="image"> <img
+                                            src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/team2-500x500.jpg"
+                                            alt="Peter Green" /></div>
+                                    <div class="desc">
+                                        <div class="name">Peter Green</div>
+                                        <div class="category">Back-end Developer</div>
+                                        <div class="soc"> <a target="_blank" href="https://www.facebook.com/"> <span
+                                                    class="icon ion fab fa-facebook-f"></span> </a> <a target="_blank"
+                                                href="https://twitter.com/"> <span
+                                                    class="icon ion fab fa-twitter"></span> </a> <a target="_blank"
+                                                href="https://www.pinterest.com/"> <span
+                                                    class="icon ion fab fa-pinterest"></span> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-nav"> <a class="prev swiper-button-prev fas fa-long-arrow-alt-left"></a>
+                        <div class="swiper-pagination"></div> <a
+                            class="next swiper-button-next fas fa-long-arrow-alt-right"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section testimonials" id="section-testimonials">
+            <div class="content">
+                <div class="title">
+                    <div class="title_inner">Testimonials</div>
+                </div>
+                <div class="reviews-carousel">
+                    <div class="swiper-container" data-autoplaytime="false" data-slidesview="2" data-spacebetween="30"
+                        data-loop="0">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="reviews-item content-box">
+                                    <div class="image"> <img
+                                            src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/rev1.jpg"
+                                            alt="Alejandro Abeyta" /></div>
+                                    <div class="info">
+                                        <div class="name">Alejandro Abeyta</div>
+                                        <div class="company">Web Developer</div>
+                                    </div>
+                                    <div class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="reviews-item content-box">
+                                    <div class="image"> <img
+                                            src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/rev2.jpg"
+                                            alt="Peter Green" /></div>
+                                    <div class="info">
+                                        <div class="name">Peter Green</div>
+                                        <div class="company">Back-end Developer</div>
+                                    </div>
+                                    <div class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="reviews-item content-box">
+                                    <div class="image"> <img
+                                            src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/rev1.jpg"
+                                            alt="Alejandro Abeyta" /></div>
+                                    <div class="info">
+                                        <div class="name">Alejandro Abeyta</div>
+                                        <div class="company">Web Developer</div>
+                                    </div>
+                                    <div class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="reviews-item content-box">
+                                    <div class="image"> <img
+                                            src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/rev2.jpg"
+                                            alt="Peter Green" /></div>
+                                    <div class="info">
+                                        <div class="name">Peter Green</div>
+                                        <div class="company">Back-end Developer</div>
+                                    </div>
+                                    <div class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-nav"> <a class="prev swiper-button-prev fas fa-long-arrow-alt-left"></a>
+                        <div class="swiper-pagination"></div> <a
+                            class="next swiper-button-next fas fa-long-arrow-alt-right"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section clients" id="section-clients">
+            <div class="content">
+                <div class="title">
+                    <div class="title_inner">Clients</div>
+                </div>
+                <div class="content-box">
+                    <div class="clients-items">
+                        <div class="clients-col">
+                            <div class="clients-item"> <a target="_blank" href="https://cvio.bslthemes.com"> <img
+                                        src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/client1-160x77.png"
+                                        alt="Client" /> </a></div>
+                        </div>
+                        <div class="clients-col">
+                            <div class="clients-item"> <a target="_blank" href="https://cvio.bslthemes.com"> <img
+                                        src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/client2-160x57.png"
+                                        alt="Client" /> </a></div>
+                        </div>
+                        <div class="clients-col">
+                            <div class="clients-item"> <a target="_blank" href="https://cvio.bslthemes.com"> <img
+                                        src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/client3-160x142.png"
+                                        alt="Client" /> </a></div>
+                        </div>
+                        <div class="clients-col">
+                            <div class="clients-item"> <a target="_blank" href="https://cvio.bslthemes.com"> <img
+                                        src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/client1-160x77.png"
+                                        alt="Client" /> </a></div>
+                        </div>
+                        <div class="clients-col">
+                            <div class="clients-item"> <a target="_blank" href="https://cvio.bslthemes.com"> <img
+                                        src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/client4-160x145.png"
+                                        alt="Client" /> </a></div>
+                        </div>
+                        <div class="clients-col">
+                            <div class="clients-item"> <a target="_blank" href="https://cvio.bslthemes.com"> <img
+                                        src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/client4-160x145.png"
+                                        alt="Client" /> </a></div>
+                        </div>
+                        <div class="clients-col">
+                            <div class="clients-item"> <a target="_blank" href="https://cvio.bslthemes.com"> <img
+                                        src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/client2-160x57.png"
+                                        alt="Client" /> </a></div>
+                        </div>
+                        <div class="clients-col">
+                            <div class="clients-item"> <a target="_blank" href="https://cvio.bslthemes.com"> <img
+                                        src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/client3-160x142.png"
+                                        alt="Client" /> </a></div>
+                        </div>
+                    </div>
                 </div>
                 <div class="clear"></div>
-
-
-        </section>
-
-
-
+            </div>
+        </div>
+        <div class="section custom-text" id="section-text">
+            <div class="content">
+                <div class="title">
+                    <div class="title_inner">Custom Text</div>
+                </div>
+                <div class="content-box">
+                    <div class="single-post-text">
+                        <p>Now there is more fashion. There is no so-called trends. Now chase after anything not
+                            necessary — nor for fashionable color nor the shape, nor for style. Think about the
+                            content that you want to invest in a created object, and only then will form. The thing
+                            is your spirit. A spirit unlike forms hard copy.</p>
+                        <p>Here choose yourself like that, without any looking back, do your personal, home, small
+                            fashion, and all will be well.</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        </div>
+        <footer class="footer">
+            <div class="copy">
+                <p>E: alejandroa@gmail.com</p>
+                <p>T: +1 (234) 567 80 98</p>
+            </div>
+            <div class="soc-box">
+                <div class="follow-label">Follow Me</div>
+                <div class="soc"> <a target="_blank" href="https://www.linkedin.com/"> <span
+                            class="ion fab fa-linkedin-in"></span> </a> <a target="_blank" href="https://github.com/">
+                        <span class="ion fab fa-github"></span> </a> <a target="_blank"
+                        href="https://www.facebook.com/"> <span class="ion fab fa-facebook-f"></span> </a> <a
+                        target="_blank" href="https://www.instagram.com/"> <span class="ion fab fa-instagram"></span>
+                    </a></div>
+            </div>
+            <div class="clear"></div>
+        </footer>
+        <div class="lines">
+            <div class="content">
+                <div class="line-col"></div>
+                <div class="line-col"></div>
+                <div class="line-col"></div>
+                <div class="line-col"></div>
+                <div class="line-col"></div>
+            </div>
+        </div>
+        </div>
+        <script defer
+            src="https://cvio.bslthemes.com/v1/wp-content/cache/autoptimize/js/autoptimize_34bebfc4df3e1492ef682d7a9a115df3.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
             crossorigin="anonymous"></script>
@@ -181,6 +708,7 @@
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"></script>
 
-</body>
+    </body>
+</body>>
 
 </html>
