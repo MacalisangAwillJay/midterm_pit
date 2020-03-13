@@ -301,7 +301,6 @@ section {
 }
 
 
-
 #mk-icon-box-10 .mk-box-icon-2-icon {
   color: #ffffff !important;
   background-color: rgba(255, 255, 255, 0.5);
@@ -332,3 +331,24 @@ section {
 #mk-icon-box-10 .mk-box-icon-2-content {
   color: #ffffff;
 }
+
+.row {
+  margin: 15px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
