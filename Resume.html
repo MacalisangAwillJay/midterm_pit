@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+    <title>Resume</title>
+
+    <!-- Meta -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,704 +15,385 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Resume</title>
-</head>
 
-<body>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+    <!-- FontAwesome JS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js"
+        integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a"
+        crossorigin="anonymous"></script>
+
+
+
+
+</head>
+<br>
+
+<body id="resume">
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-		<a class="navbar-brand text-white">
-			<img src="it.jpg" width="30" height="30" class="d-inline-block align-top mr-2" alt="">AJAY
-		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item ">
-					<a class="nav-link" href="HTMLPage1.html">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item ">
-					<a class="nav-link" href="About.html">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="Contact.html">Contact</a>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-						aria-haspopup="true" aria-expanded="false">Portfolio
-					</a>
-					<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-						<a id="resume" class="dropdown-item active" href="Resume.html">Resume</a>
-						<a class="dropdown-item" href="#">Another action</a>
-					</div>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="Gallery.html">Gallery</a>
-				</li>
-			</ul>
+        <a class="navbar-brand">
+            <img src="it.jpg" width="30" height="30" class="d-inline-block align-top mr-2" alt="">AJAY
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="HTMLPage1.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Portfolio
+                    </a>
+                    <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item active" href="Resume.html">Resume</a>
+                        
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Gallery.html">Gallery</a>
+                </li>
+            </ul>
 
-		</div>
+        </div>
     </nav>
 
-    <body>
+    <article class="resume-wrapper text-center position-relative">
+        <div class="resume-wrapper-inner mx-auto text-left bg-black shadow-lg">
+            <header class="resume-header pt-4 pt-md-0">
+                <div class="media flex-column flex-md-row">
+                    <img class="mr-3 img-fluid picture mx-auto" src="awill.jpg" alt="">
+                    <div class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
+                        <div class="primary-info">
+                            <h1 class="name mt-0 mb-1 text-white text-uppercase">Awill Jay Macalisang
+                            </h1>
+                            <div class="title mb-3">Web Developer</div>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><a href="#"><i class="far fa-envelope fa-fw mr-2"
+                                            data-fa-transform="grow-3"></i>macalisang.awilljay@gmail.com</a></li>
+                                <li><a href="#"><i class="fas fa-mobile-alt fa-fw mr-2"
+                                            data-fa-transform="grow-6"></i>09955836426</a></li>
+                            </ul>
+                        </div>
+                        <!--//primary-info-->
+                        <div class="secondary-info ml-md-auto mt-2">
+                            <ul class="resume-social list-unstyled">
+                                <li class="mb-3"><a href="#"><span class="fa-container text-center mr-2"><i
+                                                class="fab fa-linkedin-in fa-fw"></i></span>linkedin.com/in/awillmac</a>
+                                </li>
+                                <li class="mb-3"><a href="#"><span class="fa-container text-center mr-2"><i
+                                                class="fab fa-github-alt fa-fw"></i></span>github.com/awill</a></li>
+                                <li class="mb-3"><a href="#"><span class="fa-container text-center mr-2"><i
+                                                class="fab fa-codepen fa-fw"></i></span>codepen.io/awill/</a></li>
+                                <li><a href="#"><span class="fa-container text-center mr-2"><i
+                                                class="fas fa-globe"></i></span>ajmac.com</a></li>
+                            </ul>
+                        </div>
+                        <!--//secondary-info-->
 
-        <div class="container" id="section-about">
-            <div class="content content-box">
-                <div class="image"> <img
-                        src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/man_r-160x180.jpg" alt="" />
+                    </div>
+                    <!--//media-body-->
                 </div>
-                <div class="desc">
-                    <p>Hello! I’m Daniel Curry. Web designer from USA, California, San Francisco. I have rich
-                        experience in web site design and building, also I am good at wordpress. I love to talk with
-                        you about our unique.</p>
-                    <div class="info-list">
-                        <ul>
-                            <li><strong>Age:</strong> 24</li>
-                            <li><strong>Residence:</strong> USA</li>
-                            <li><strong>Freelance:</strong> Available</li>
-                            <li><strong>Address:</strong> San Francisco, USA</li>
-                            <li><strong>Phone:</strong> +1 256 254 84 56</li>
-                            <li><strong>E-mail:</strong> alejandroa@gmail.com</li>
-                        </ul>
+                <!--//media-->
+            </header>
+            <div class="resume-body p-5">
+                <section class="resume-section summary-section mb-5">
+                    <h2 class="resume-section-title text-uppercase text-white font-weight-bold pb-3 mb-3">Career Summary
+                    </h2>
+                    <div class="resume-section-content text-white">
+                        <p class="mb-0">My Career Objective is to become a part of dynamic, growth-oriented organization
+                            where performance is rewarded and have exposure to a competitive environment and challenging
+                            responsibilities.</p>
                     </div>
-                    <div class="bts bts-list"> <a href="https://cvio.bslthemes.com/" class="btn hover-animated">
-                            <span class="circle"></span> <span class="lnk">Download CV</span> </a></div>
-                </div>
-                <div class="clear"></div>
-            </div>
-        </div>
-        <div class="section service" id="section-services">
-            <div class="content">
-                <div class="title">
-                    <div class="title_inner">Services</div>
-                </div>
-                <div class="service-items">
-                    <div class="service-col">
-                        <div class="service-item content-box">
-                            <div class="icon"><span class="ion fas fa-code"></span></div>
-                            <div class="name">Web Development</div>
-                            <div class="text">Modern and mobile-ready website that will help you reach all of your
-                                marketing.</div>
-                        </div>
-                    </div>
-                    <div class="service-col">
-                        <div class="service-item content-box">
-                            <div class="icon"><span class="ion fas fa-music"></span></div>
-                            <div class="name">Music Writing</div>
-                            <div class="text">Music copying, writing, creating, transcription, arranging and
-                                services.</div>
-                        </div>
-                    </div>
-                    <div class="service-col">
-                        <div class="service-item content-box">
-                            <div class="icon"><span class="ion fas fa-ad"></span></div>
-                            <div class="name">Advetising</div>
-                            <div class="text">Advertising services include television, radio, print, mail, and web
-                                apps.</div>
-                        </div>
-                    </div>
-                    <div class="service-col">
-                        <div class="service-item content-box">
-                            <div class="icon"><span class="ion fas fa-gamepad"></span></div>
-                            <div class="name">Game Development</div>
-                            <div class="text">Developing memorable and unique mobile android, ios and video games.
+                </section>
+                <!--//summary-section-->
+                <div class="row">
+                    <div class="col-lg-9">
+                        <section class="resume-section experience-section mb-5">
+                            <h2 class="resume-section-title text-uppercase text-white font-weight-bold pb-3 mb-3">
+                                Experience</h2>
+                            <div class="resume-section-content">
+                                <div class="resume-timeline position-relative">
+                                    <article class="resume-timeline-item position-relative pb-5">
+
+                                        <div class="resume-timeline-item-header mb-2">
+                                            <div class="d-flex flex-column flex-md-row">
+                                                <h3 class="resume-position-title text-white font-weight-bold mb-1">Web
+                                                    Developer
+                                                </h3>
+                                                <div class="resume-company-name text-primary ml-auto">BSIT-2R4</div>
+                                            </div>
+                                            <!--//row-->
+                                            <div class="resume-position-time text-primary">2020 - Present</div>
+                                        </div>
+                                        <!--//resume-timeline-item-header-->
+                                        <div class="resume-timeline-item-desc text-white">
+                                            <p>Successfully Created my own simple portfolio by using HTML, CSS,
+                                                Bootstrap and a little bit JavaScript </p>
+                                            <h4 class="resume-timeline-item-desc-heading text-primary font-weight-bold">
+                                                Technologies
+                                                used:</h4>
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><span
+                                                        class="badge badge-primary badge-pill">Bootstrap</span></li>
+                                                <li class="list-inline-item"><span
+                                                        class="badge badge-primary badge-pill">JavaScript</span></li>
+                                                <li class="list-inline-item"><span
+                                                        class="badge badge-primary badge-pill">HTML/CSS</span></li>
+
+                                            </ul>
+                                        </div>
+                                        <!--//resume-timeline-item-desc-->
+
+                                    </article>
+                                    <!--//resume-timeline-item-->
+
+                                    <article class="resume-timeline-item position-relative pb-5">
+
+                                        <div class="resume-timeline-item-header mb-2">
+                                            <div class="d-flex flex-column flex-md-row">
+                                                <h3 class="resume-position-title text-white font-weight-bold mb-1">Java
+                                                    GUI</h3>
+                                                <div class="resume-company-name text-primary ml-auto">BSIT-2R3</div>
+                                            </div>
+                                            <!--//row-->
+                                            <div class="resume-position-time text-primary">2019 - 2020</div>
+                                        </div>
+                                        <!--//resume-timeline-item-header-->
+                                        <div class="resume-timeline-item-desc text-white">
+                                            <p>Created a running GUI Java program by using Java programming language
+                                                along with a database using MySQL.</p>
+
+                                            <h4 class="resume-timeline-item-desc-heading text-primary font-weight-bold">
+                                                Technologies
+                                                used:</h4>
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><span
+                                                        class="badge badge-primary badge-pill">Java</span></li>
+                                                <li class="list-inline-item"><span
+                                                        class="badge badge-primary badge-pill">MySQL</span></li>
+                                            </ul>
+                                        </div>
+                                        <!--//resume-timeline-item-desc-->
+
+                                    </article>
+                                    <!--//resume-timeline-item-->
+
+                                    <article class="resume-timeline-item position-relative pb-5">
+
+                                        <div class="resume-timeline-item-header mb-2">
+                                            <div class="d-flex flex-column flex-md-row">
+                                                <h3 class="resume-position-title text-white font-weight-bold mb-1">
+                                                    Python GUI</h3>
+                                                <div class="resume-company-name text-primary ml-auto">BSIT-1R7</div>
+                                            </div>
+                                            <!--//row-->
+                                            <div class="resume-position-time text-primary">2018 - 2019</div>
+                                        </div>
+                                        <!--//resume-timeline-item-header-->
+                                        <div class="resume-timeline-item-desc text-white">
+                                            <p>I created my first running GUI using Python Programming Language.</p>
+
+                                            <h4 class="resume-timeline-item-desc-heading text-primary font-weight-bold">
+                                                Technologies
+                                                used:</h4>
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item"><span
+                                                        class="badge badge-primary badge-pill">Python</span></li>
+                                            </ul>
+                                        </div>
+                                        <!--//resume-timeline-item-desc-->
+
+                                    </article>
+                                    <!--//resume-timeline-item-->
+
+
+
+
+                                </div>
+                                <!--//resume-timeline-->
+
+
+
+
+
+
                             </div>
-                        </div>
+                        </section>
+                        <!--//experience-section-->
                     </div>
-                    <div class="service-col">
-                        <div class="service-item content-box">
-                            <div class="icon"><span class="ion fas fa-camera"></span></div>
-                            <div class="name">Photography</div>
-                            <div class="text">Our in-house photography services team made up of professional
-                                photographers.</div>
-                        </div>
-                    </div>
-                    <div class="service-col">
-                        <div class="service-item content-box">
-                            <div class="icon"><span class="ion fas fa-mobile"></span></div>
-                            <div class="name">Android Application</div>
-                            <div class="text">Games, playing music, handle network transactions, interacting content
-                                etc.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section pricing" id="section-pricing">
-            <div class="content">
-                <div class="title">
-                    <div class="title_inner">Pricing Table</div>
-                </div>
-                <div class="pricing-items">
-                    <div class="pricing-col">
-                        <div class="pricing-item content-box">
-                            <div class="icon"><span class="ion fas fa-star"></span></div>
-                            <div class="name">Popular</div>
-                            <div class="amount"> <span class="number"> <span class="dollar">$</span> <span>39</span>
-                                    <span class="period">hour</span> </span></div>
-                            <div class="feature-list">
-                                <ul>
-                                    <li>Web Development</li>
-                                    <li>Advetising</li>
-                                    <li>Game Development</li>
-                                    <li class="disable">Music Writing <strong>new</strong></li>
-                                    <li class="disable">Photography <strong>new</strong></li>
+                    <div class="col-lg-3">
+                        <section class="resume-section skills-section mb-5">
+                            <h2 class="resume-section-title text-uppercase text-white font-weight-bold pb-3 mb-3">Skills
+                                &amp;
+                                Tools</h2>
+                            <div class="resume-section-content">
+                                <div class="resume-skill-item">
+                                    <h4 class="resume-skills-cat text-white font-weight-bold">Frontend</h4>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="mb-2">
+                                            <div class="resume-skill-name">Bootstrap</div>
+                                            <div class="progress resume-progress">
+                                                <div class="progress-bar theme-progress-bar-dark" role="progressbar"
+                                                    style="width: 59%" aria-valuenow="25" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
+                                            </div>
+                                        </li>
+                                        <li class="mb-2">
+                                            <div class="resume-skill-name">JavaScript</div>
+                                            <div class="progress resume-progress">
+                                                <div class="progress-bar theme-progress-bar-dark" role="progressbar"
+                                                    style="width: 48%" aria-valuenow="25" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
+                                            </div>
+                                        </li>
+
+                                        <li class="mb-2">
+                                            <div class="resume-skill-name">HTML/CSS</div>
+                                            <div class="progress resume-progress">
+                                                <div class="progress-bar theme-progress-bar-dark" role="progressbar"
+                                                    style="width: 58%" aria-valuenow="25" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--//resume-skill-item-->
+
+                                <div class="resume-skill-item">
+                                    <h4 class="resume-skills-cat text-white font-weight-bold">Backend</h4>
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2">
+                                            <div class="resume-skill-name">Python</div>
+                                            <div class="progress resume-progress">
+                                                <div class="progress-bar theme-progress-bar-dark" role="progressbar"
+                                                    style="width: 50%" aria-valuenow="25" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
+                                            </div>
+                                        </li>
+                                        <li class="mb-2">
+                                            <div class="resume-skill-name">Java</div>
+                                            <div class="progress resume-progress">
+                                                <div class="progress-bar theme-progress-bar-dark" role="progressbar"
+                                                    style="width: 60%" aria-valuenow="25" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
+                                            </div>
+                                        </li>
+                                        <li class="mb-2">
+                                            <div class="resume-skill-name">C++</div>
+                                            <div class="progress resume-progress">
+                                                <div class="progress-bar theme-progress-bar-dark" role="progressbar"
+                                                    style="width: 54%" aria-valuenow="25" aria-valuemin="0"
+                                                    aria-valuemax="100"></div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--//resume-skill-item-->
+
+                                <div class="resume-skill-item">
+                                    <h4 class="resume-skills-cat text-white font-weight-bold">Others</h4>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><span class="badge badge-light">DevOps</span></li>
+                                        <li class="list-inline-item"><span class="badge badge-light">Code Review</span>
+                                        </li>
+                                        <li class="list-inline-item"><span class="badge badge-light">Git</span></li>
+                                        <li class="list-inline-item"><span class="badge badge-light">Unit Testing</span>
+                                        </li>
+                                        <li class="list-inline-item"><span class="badge badge-light">Wireframing</span>
+                                        </li>
+                                        <li class="list-inline-item"><span class="badge badge-light">Sketch</span></li>
+                                        <li class="list-inline-item"><span class="badge badge-light">WordPress</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <!--//resume-skill-item-->
+                            </div>
+                            <!--resume-section-content-->
+                        </section>
+                        <!--//skills-section-->
+                        <section class="resume-section education-section mb-5">
+                            <h2 class="resume-section-title text-uppercase text-white font-weight-bold pb-3 mb-3">
+                                Education</h2>
+                            <div class="resume-section-content">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2">
+                                        <div class="resume-degree font-weight-bold">Junior Highschool</div>
+                                        <div class="resume-degree-org">St. Rita's College of Balingasag</div>
+                                        <div class="resume-degree-time">2014 - 2016</div>
+                                    </li>
+                                    <li>
+                                        <div class="resume-degree font-weight-bold">Senior Highschool</div>
+                                        <div class="resume-degree-org">Fr. Urios Academy of Magallanes Inc.</div>
+                                        <div class="resume-degree-time">2016 - 2018</div>
+                                    </li>
                                 </ul>
                             </div>
-                            <div class="bts"> <a href="https://cvio.bslthemes.com/v1/" class="btn hover-animated">
-                                    <span class="circle"></span> <span class="lnk">Buy Now</span> </a></div>
-                        </div>
-                    </div>
-                    <div class="pricing-col">
-                        <div class="pricing-item content-box">
-                            <div class="icon"><span class="ion fas fa-rocket"></span></div>
-                            <div class="name">Premium</div>
-                            <div class="amount"> <span class="number"> <span class="dollar">$</span> <span>49</span>
-                                    <span class="period">hour</span> </span></div>
-                            <div class="feature-list">
-                                <ul>
-                                    <li>Web Development</li>
-                                    <li>Advetising</li>
-                                    <li>Game Development</li>
-                                    <li>Music Writing <strong>new</strong></li>
-                                    <li>Photography <strong>new</strong></li>
+                        </section>
+                        <!--//education-section-->
+                        <section class="resume-section language-section mb-5">
+                            <h2 class="resume-section-title text-uppercase text-white font-weight-bold pb-3 mb-3">
+                                Language</h2>
+                            <div class="resume-section-content">
+                                <ul class="list-unstyled resume-lang-list">
+                                    <li class="mb-2"><span
+                                            class="resume-lang-name text-white font-weight-bold">Cebuano</span>
+                                        <small class="text-muted font-weight-normal">(Native)</small></li>
+                                    <li class="mb-2 align-middle"><span
+                                            class="resume-lang-name text-white font-weight-bold">English</span> <small
+                                            class="text-muted font-weight-normal">(Professional)</small></li>
+                                    <li><span class="resume-lang-name text-white font-weight-bold">Tagalog</span> <small
+                                            class="text-muted font-weight-normal">(Professional)</small></li>
                                 </ul>
                             </div>
-                            <div class="bts"> <a href="https://cvio.bslthemes.com/v1/" class="btn hover-animated">
-                                    <span class="circle"></span> <span class="lnk">Buy Now</span> </a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section resume" id="section-history">
-            <div class="content">
-                <div class="cols">
-                    <div class="col col-md">
-                        <div class="title">
-                            <div class="title_inner">Experience</div>
-                        </div>
-                        <div class="resume-items">
-                            <div class="resume-item content-box active">
-                                <div class="date">2013 - Present</div>
-                                <div class="name">Art Director - Facebook Inc.</div>
-                                <div class="text">Collaborate with creative and development teams on the execution
-                                    of ideas.</div>
+                        </section>
+                        <!--//language-section-->
+                        <section class="resume-section interests-section mb-5">
+                            <h2 class="resume-section-title text-uppercase text-white font-weight-bold pb-3 mb-3">
+                                Interests</h2>
+                            <div class="resume-section-content">
+                                <ul class="list-unstyled">
+                                    <li class="mb-1">Basketball</li>
+                                    <li class="mb-1">Mobile Gaming</li>
+                                </ul>
                             </div>
-                            <div class="resume-item content-box active">
-                                <div class="date">2011 - 2012</div>
-                                <div class="name">Front-End Developer - Google Inc.</div>
-                                <div class="text">Monitored technical aspects of the front-end delivery for
-                                    projects.</div>
-                            </div>
-                            <div class="resume-item content-box active">
-                                <div class="date">2009 - 2010</div>
-                                <div class="name">Senior Developer - ABC Inc.</div>
-                                <div class="text">Optimize your website and apps performance using latest
-                                    technology.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col col-md">
-                        <div class="title">
-                            <div class="title_inner">Education</div>
-                        </div>
-                        <div class="resume-items">
-                            <div class="resume-item content-box active">
-                                <div class="date">2006 - 2008</div>
-                                <div class="name">Art University - New York</div>
-                                <div class="text">Bachelor's Degree in Computer Science ABC Technical Institute,
-                                    Jefferson, Missouri.</div>
-                            </div>
-                            <div class="resume-item content-box active">
-                                <div class="date">2005 - 2006</div>
-                                <div class="name">Programming Course - Paris</div>
-                                <div class="text">Coursework - Git, WordPress, Javascript, iOS, Android.</div>
-                            </div>
-                            <div class="resume-item content-box active">
-                                <div class="date">2004 - 2005</div>
-                                <div class="name">Web Design Course - London</div>
-                                <div class="text">Converted Photoshop layouts to web pages using HTML, CSS, and
-                                    JavaScript.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section skills" id="section-skills">
-            <div class="content">
-                <div class="title">
-                    <div class="title_inner">Design Skills</div>
-                </div>
-                <div class="skills content-box percent">
-                    <ul>
-                        <li>
-                            <div class="name">Web Design</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: 90%;"> <span class="percent">90%</span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">Illustrations</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: 70%;"> <span class="percent">70%</span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">Photoshop</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: 95%;"> <span class="percent">95%</span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">Graphic Design</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: 85%;"> <span class="percent">85%</span></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="section skills" id="section-skills">
-            <div class="content">
-                <div class="title">
-                    <div class="title_inner">Languages Skills</div>
-                </div>
-                <div class="skills content-box dotted">
-                    <ul>
-                        <li>
-                            <div class="name">English</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: 90%;"> <span class="percent">90%</span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">German</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: 70%;"> <span class="percent">70%</span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">Italian</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: 55%;"> <span class="percent">55%</span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">French</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: 85%;"> <span class="percent">85%</span></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="section skills" id="section-skills">
-            <div class="content">
-                <div class="title">
-                    <div class="title_inner">Coding Skills</div>
-                </div>
-                <div class="skills content-box circles">
-                    <ul>
-                        <li>
-                            <div class="name">WordPress</div>
-                            <div class="progress p90">
-                                <div class="percentage" style="width: 90%;"> <span class="percent">90%</span></div>
-                                <span>90%</span>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">PHP / MYSQL</div>
-                            <div class="progress p75">
-                                <div class="percentage" style="width: 75%;"> <span class="percent">75%</span></div>
-                                <span>75%</span>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">Angular / JavaScript</div>
-                            <div class="progress p85">
-                                <div class="percentage" style="width: 85%;"> <span class="percent">85%</span></div>
-                                <span>85%</span>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">HTML / CSS</div>
-                            <div class="progress p95">
-                                <div class="percentage" style="width: 95%;"> <span class="percent">95%</span></div>
-                                <span>95%</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="section skills" id="section-skills">
-            <div class="content">
-                <div class="title">
-                    <div class="title_inner">Knowledge</div>
-                </div>
-                <div class="skills content-box list">
-                    <ul>
-                        <li>
-                            <div class="name">Website hosting</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">iOS and android apps</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">Create logo design</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">Design for print</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">Modern and mobile-ready</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">Advertising services include</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">Graphics and animations</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="name">Search engine marketing</div>
-                            <div class="progress ">
-                                <div class="percentage" style="width: ;"> <span class="percent"></span></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="section service" id="section-interests">
-            <div class="content">
-                <div class="title">
-                    <div class="title_inner">Interests</div>
-                </div>
-                <div class="service-items">
-                    <div class="service-col">
-                        <div class="service-item content-box">
-                            <div class="icon"><span class="ion fas fa-basketball-ball"></span></div>
-                            <div class="name">Basketball</div>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                        </div>
-                    </div>
-                    <div class="service-col">
-                        <div class="service-item content-box">
-                            <div class="icon"><span class="ion fas fa-fire"></span></div>
-                            <div class="name">Camping</div>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                        </div>
-                    </div>
-                    <div class="service-col">
-                        <div class="service-item content-box">
-                            <div class="icon"><span class="ion fas fa-gamepad"></span></div>
-                            <div class="name">Gaming</div>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                        </div>
-                    </div>
-                    <div class="service-col">
-                        <div class="service-item content-box">
-                            <div class="icon"><span class="ion fas fa-music"></span></div>
-                            <div class="name">Music</div>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section team" id="section-team">
-            <div class="content">
-                <div class="title">
-                    <div class="title_inner">Our Team</div>
-                </div>
-                <div class="team-carousel">
-                    <div class="swiper-container" data-autoplaytime="5000" data-slidesview="2" data-spacebetween="30"
-                        data-loop="0">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="team-item content-box">
-                                    <div class="image"> <img
-                                            src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/team1-500x500.jpg"
-                                            alt="Alejandro Abeyta" /></div>
-                                    <div class="desc">
-                                        <div class="name">Alejandro Abeyta</div>
-                                        <div class="category">Web Developer</div>
-                                        <div class="soc"> <a target="_blank" href="https://www.facebook.com/"> <span
-                                                    class="icon ion fab fa-facebook-f"></span> </a> <a target="_blank"
-                                                href="https://twitter.com/"> <span
-                                                    class="icon ion fab fa-twitter"></span> </a> <a target="_blank"
-                                                href="https://www.pinterest.com/"> <span
-                                                    class="icon ion fab fa-pinterest"></span> </a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="team-item content-box">
-                                    <div class="image"> <img
-                                            src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/team2-500x500.jpg"
-                                            alt="Peter Green" /></div>
-                                    <div class="desc">
-                                        <div class="name">Peter Green</div>
-                                        <div class="category">Back-end Developer</div>
-                                        <div class="soc"> <a target="_blank" href="https://www.facebook.com/"> <span
-                                                    class="icon ion fab fa-facebook-f"></span> </a> <a target="_blank"
-                                                href="https://twitter.com/"> <span
-                                                    class="icon ion fab fa-twitter"></span> </a> <a target="_blank"
-                                                href="https://www.pinterest.com/"> <span
-                                                    class="icon ion fab fa-pinterest"></span> </a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="team-item content-box">
-                                    <div class="image"> <img
-                                            src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/team1-500x500.jpg"
-                                            alt="Alejandro Abeyta" /></div>
-                                    <div class="desc">
-                                        <div class="name">Alejandro Abeyta</div>
-                                        <div class="category">Web Developer</div>
-                                        <div class="soc"> <a target="_blank" href="https://www.facebook.com/"> <span
-                                                    class="icon ion fab fa-facebook-f"></span> </a> <a target="_blank"
-                                                href="https://twitter.com/"> <span
-                                                    class="icon ion fab fa-twitter"></span> </a> <a target="_blank"
-                                                href="https://www.pinterest.com/"> <span
-                                                    class="icon ion fab fa-pinterest"></span> </a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="team-item content-box">
-                                    <div class="image"> <img
-                                            src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/team2-500x500.jpg"
-                                            alt="Peter Green" /></div>
-                                    <div class="desc">
-                                        <div class="name">Peter Green</div>
-                                        <div class="category">Back-end Developer</div>
-                                        <div class="soc"> <a target="_blank" href="https://www.facebook.com/"> <span
-                                                    class="icon ion fab fa-facebook-f"></span> </a> <a target="_blank"
-                                                href="https://twitter.com/"> <span
-                                                    class="icon ion fab fa-twitter"></span> </a> <a target="_blank"
-                                                href="https://www.pinterest.com/"> <span
-                                                    class="icon ion fab fa-pinterest"></span> </a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-nav"> <a class="prev swiper-button-prev fas fa-long-arrow-alt-left"></a>
-                        <div class="swiper-pagination"></div> <a
-                            class="next swiper-button-next fas fa-long-arrow-alt-right"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section testimonials" id="section-testimonials">
-            <div class="content">
-                <div class="title">
-                    <div class="title_inner">Testimonials</div>
-                </div>
-                <div class="reviews-carousel">
-                    <div class="swiper-container" data-autoplaytime="false" data-slidesview="2" data-spacebetween="30"
-                        data-loop="0">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="reviews-item content-box">
-                                    <div class="image"> <img
-                                            src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/rev1.jpg"
-                                            alt="Alejandro Abeyta" /></div>
-                                    <div class="info">
-                                        <div class="name">Alejandro Abeyta</div>
-                                        <div class="company">Web Developer</div>
-                                    </div>
-                                    <div class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="reviews-item content-box">
-                                    <div class="image"> <img
-                                            src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/rev2.jpg"
-                                            alt="Peter Green" /></div>
-                                    <div class="info">
-                                        <div class="name">Peter Green</div>
-                                        <div class="company">Back-end Developer</div>
-                                    </div>
-                                    <div class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="reviews-item content-box">
-                                    <div class="image"> <img
-                                            src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/rev1.jpg"
-                                            alt="Alejandro Abeyta" /></div>
-                                    <div class="info">
-                                        <div class="name">Alejandro Abeyta</div>
-                                        <div class="company">Web Developer</div>
-                                    </div>
-                                    <div class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="reviews-item content-box">
-                                    <div class="image"> <img
-                                            src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/rev2.jpg"
-                                            alt="Peter Green" /></div>
-                                    <div class="info">
-                                        <div class="name">Peter Green</div>
-                                        <div class="company">Back-end Developer</div>
-                                    </div>
-                                    <div class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-nav"> <a class="prev swiper-button-prev fas fa-long-arrow-alt-left"></a>
-                        <div class="swiper-pagination"></div> <a
-                            class="next swiper-button-next fas fa-long-arrow-alt-right"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section clients" id="section-clients">
-            <div class="content">
-                <div class="title">
-                    <div class="title_inner">Clients</div>
-                </div>
-                <div class="content-box">
-                    <div class="clients-items">
-                        <div class="clients-col">
-                            <div class="clients-item"> <a target="_blank" href="https://cvio.bslthemes.com"> <img
-                                        src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/client1-160x77.png"
-                                        alt="Client" /> </a></div>
-                        </div>
-                        <div class="clients-col">
-                            <div class="clients-item"> <a target="_blank" href="https://cvio.bslthemes.com"> <img
-                                        src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/client2-160x57.png"
-                                        alt="Client" /> </a></div>
-                        </div>
-                        <div class="clients-col">
-                            <div class="clients-item"> <a target="_blank" href="https://cvio.bslthemes.com"> <img
-                                        src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/client3-160x142.png"
-                                        alt="Client" /> </a></div>
-                        </div>
-                        <div class="clients-col">
-                            <div class="clients-item"> <a target="_blank" href="https://cvio.bslthemes.com"> <img
-                                        src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/client1-160x77.png"
-                                        alt="Client" /> </a></div>
-                        </div>
-                        <div class="clients-col">
-                            <div class="clients-item"> <a target="_blank" href="https://cvio.bslthemes.com"> <img
-                                        src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/client4-160x145.png"
-                                        alt="Client" /> </a></div>
-                        </div>
-                        <div class="clients-col">
-                            <div class="clients-item"> <a target="_blank" href="https://cvio.bslthemes.com"> <img
-                                        src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/client4-160x145.png"
-                                        alt="Client" /> </a></div>
-                        </div>
-                        <div class="clients-col">
-                            <div class="clients-item"> <a target="_blank" href="https://cvio.bslthemes.com"> <img
-                                        src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/client2-160x57.png"
-                                        alt="Client" /> </a></div>
-                        </div>
-                        <div class="clients-col">
-                            <div class="clients-item"> <a target="_blank" href="https://cvio.bslthemes.com"> <img
-                                        src="https://cvio.bslthemes.com/v1/wp-content/uploads/2020/01/client3-160x142.png"
-                                        alt="Client" /> </a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clear"></div>
-            </div>
-        </div>
-        <div class="section custom-text" id="section-text">
-            <div class="content">
-                <div class="title">
-                    <div class="title_inner">Custom Text</div>
-                </div>
-                <div class="content-box">
-                    <div class="single-post-text">
-                        <p>Now there is more fashion. There is no so-called trends. Now chase after anything not
-                            necessary — nor for fashionable color nor the shape, nor for style. Think about the
-                            content that you want to invest in a created object, and only then will form. The thing
-                            is your spirit. A spirit unlike forms hard copy.</p>
-                        <p>Here choose yourself like that, without any looking back, do your personal, home, small
-                            fashion, and all will be well.</p>
-                    </div>
-                </div>
-                <div class="clear"></div>
-            </div>
-        </div>
-        </div>
-        <footer class="footer">
-            <div class="copy">
-                <p>E: alejandroa@gmail.com</p>
-                <p>T: +1 (234) 567 80 98</p>
-            </div>
-            <div class="soc-box">
-                <div class="follow-label">Follow Me</div>
-                <div class="soc"> <a target="_blank" href="https://www.linkedin.com/"> <span
-                            class="ion fab fa-linkedin-in"></span> </a> <a target="_blank" href="https://github.com/">
-                        <span class="ion fab fa-github"></span> </a> <a target="_blank"
-                        href="https://www.facebook.com/"> <span class="ion fab fa-facebook-f"></span> </a> <a
-                        target="_blank" href="https://www.instagram.com/"> <span class="ion fab fa-instagram"></span>
-                    </a></div>
-            </div>
-            <div class="clear"></div>
-        </footer>
-        <div class="lines">
-            <div class="content">
-                <div class="line-col"></div>
-                <div class="line-col"></div>
-                <div class="line-col"></div>
-                <div class="line-col"></div>
-                <div class="line-col"></div>
-            </div>
-        </div>
-        </div>
-        <script defer
-            src="https://cvio.bslthemes.com/v1/wp-content/cache/autoptimize/js/autoptimize_34bebfc4df3e1492ef682d7a9a115df3.js"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"></script>
+                        </section>
+                        <!--//interests-section-->
 
-    </body>
-</body>>
+                    </div>
+                </div>
+                <!--//row-->
+            </div>
+            <!--//resume-body-->
+
+
+        </div>
+    </article>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+
+
+</body>
 
 </html>
